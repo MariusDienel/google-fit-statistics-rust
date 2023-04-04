@@ -3,7 +3,6 @@ use std::fs::File;
 use std::io::BufRead;
 use std::path::{Path, PathBuf};
 use chrono::{NaiveDate};
-use serde_xml_rs::EventReader;
 
 const PATH_TO_SEARCH: &str =
     "C:\\Users\\mdienel\\IdeaProjects\\google-fit-statistics\\data\\Google_Fit\\Aktivitäten";
